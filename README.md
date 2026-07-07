@@ -30,12 +30,12 @@ and the occasional soldering iron.
 
 | Project | What it is |
 | --- | --- |
-| **[dyi-translate](https://github.com/upuddu/dyi-translate)** | A Transformer-based neural machine translation system (Italian → English), implemented in PyTorch. |
-| **[Continuous Attention Transformer](https://github.com/upuddu/cat)** | Research reframing attention as a continuous-time process — early approaches to CAT, with Purdue ECE. |
-| **[tensor-c](https://github.com/upuddu/tensor-c)** | A tensor computation library written in pure C, with no external dependencies. |
+| **[dyi-translate](https://github.com/upuddu/dyi-translate)** | A Transformer-based neural machine translation system (Italian → English), implemented from scratch in PyTorch. |
+| **[Continuous Attention Transformer](https://github.com/upuddu/cat)** | A research prototype recasting attention as a continuous-depth, neural-ODE process. |
+| **[tensor-c](https://github.com/upuddu/tensor-c)** | A neural-network (multilayer perceptron) library in pure C — backpropagation and SGD training, no external dependencies. |
 | **[Purdue Connect CLI](https://github.com/upuddu/purdue-connect)** | A command-line tool that makes Purdue campus services — courses, dining, events — scriptable from the terminal. |
-| **[PioNeer](https://github.com/upuddu/PioNeer)** | A handheld gaming console — embedded firmware on custom hardware (ECE 362 final project). |
-| **[SlitDiffraction](https://github.com/upuddu/SlitDiffraction)** | A real-time 2D interference and diffraction simulator. |
+| **[PioNeer](https://github.com/upuddu/PioNeer)** | A handheld gaming console running custom RP2350 firmware — an LVGL launcher that side-loads games from an SD card (ECE 362 final project). |
+| **[SlitDiffraction](https://github.com/upuddu/SlitDiffraction)** | A real-time 2D interference and diffraction simulator for macOS. |
 
 ### Focus
 
