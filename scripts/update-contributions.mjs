@@ -83,7 +83,7 @@ function render(rows) {
       const desc = truncate(r.description, 80).replace(/\|/g, '\\|') || '—'
       const lang = r.language || '—'
       const prs = `[${r.count} PR${r.count === 1 ? '' : 's'}](${r.prsUrl})`
-      return `| **[${r.full}](${r.url})** | ${desc} | ${lang} | ⭐ ${formatStars(r.stars)} | ${prs} |`
+      return `| **[${r.full}](${r.url})** | ${desc} | ${lang} | ${formatStars(r.stars)} | ${prs} |`
     })
     .join('\n')
   return `${header}\n${body}`

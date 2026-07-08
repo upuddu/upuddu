@@ -4,7 +4,7 @@
 
 <p align="center">
   <img alt="AI systems · numerical computing · embedded"
-       src="https://readme-typing-svg.demolab.com?font=Inter&size=18&duration=3500&pause=900&color=57606A&center=true&vCenter=true&width=520&lines=AI+systems+%C2%B7+numerical+computing+%C2%B7+embedded" />
+       src="https://readme-typing-svg.demolab.com?font=Inter&size=18&duration=3500&pause=900&color=57606A&center=true&vCenter=true&width=520&lines=AI+systems+%C2%B7+numerical+computing+%C2%B7+embedded;Transformers+and+numerical+libraries+from+the+math+up;Firmware%2C+CLIs%2C+and+the+occasional+soldering+iron" />
 </p>
 
 <p align="center">
@@ -53,11 +53,11 @@ occasional soldering iron. Right now I'm building AI applications at **Reply**.
 
 | Project | What it does | Language | Stars | Merged |
 | :-- | :-- | :-- | --: | :--: |
-| **[goreleaser/goreleaser](https://github.com/goreleaser/goreleaser)** | Release engineering, simplified | Go | ⭐ 15.9k | [1 PR](https://github.com/goreleaser/goreleaser/pulls?q=is%3Apr%20author%3Aupuddu%20is%3Amerged) |
-| **[ClementTsang/bottom](https://github.com/ClementTsang/bottom)** | Yet another cross-platform graphical process/system monitor. | Rust | ⭐ 13.7k | [1 PR](https://github.com/ClementTsang/bottom/pulls?q=is%3Apr%20author%3Aupuddu%20is%3Amerged) |
-| **[ducaale/xh](https://github.com/ducaale/xh)** | Friendly and fast tool for sending HTTP requests | Rust | ⭐ 7.9k | [1 PR](https://github.com/ducaale/xh/pulls?q=is%3Apr%20author%3Aupuddu%20is%3Amerged) |
-| **[knadh/koanf](https://github.com/knadh/koanf)** | Simple, extremely lightweight, extensible, configuration management library for… | Go | ⭐ 4.1k | [1 PR](https://github.com/knadh/koanf/pulls?q=is%3Apr%20author%3Aupuddu%20is%3Amerged) |
-| **[reductstore/reductstore](https://github.com/reductstore/reductstore)** | High Performance Data Backbone for Robotics and Industrial IoT | Rust | ⭐ 360 | [2 PRs](https://github.com/reductstore/reductstore/pulls?q=is%3Apr%20author%3Aupuddu%20is%3Amerged) |
+| **[goreleaser/goreleaser](https://github.com/goreleaser/goreleaser)** | Release engineering, simplified | Go | 15.9k | [1 PR](https://github.com/goreleaser/goreleaser/pulls?q=is%3Apr%20author%3Aupuddu%20is%3Amerged) |
+| **[ClementTsang/bottom](https://github.com/ClementTsang/bottom)** | Yet another cross-platform graphical process/system monitor. | Rust | 13.7k | [1 PR](https://github.com/ClementTsang/bottom/pulls?q=is%3Apr%20author%3Aupuddu%20is%3Amerged) |
+| **[ducaale/xh](https://github.com/ducaale/xh)** | Friendly and fast tool for sending HTTP requests | Rust | 7.9k | [1 PR](https://github.com/ducaale/xh/pulls?q=is%3Apr%20author%3Aupuddu%20is%3Amerged) |
+| **[knadh/koanf](https://github.com/knadh/koanf)** | Simple, extremely lightweight, extensible, configuration management library for… | Go | 4.1k | [1 PR](https://github.com/knadh/koanf/pulls?q=is%3Apr%20author%3Aupuddu%20is%3Amerged) |
+| **[reductstore/reductstore](https://github.com/reductstore/reductstore)** | High Performance Data Backbone for Robotics and Industrial IoT | Rust | 360 | [2 PRs](https://github.com/reductstore/reductstore/pulls?q=is%3Apr%20author%3Aupuddu%20is%3Amerged) |
 
 <!-- CONTRIBUTIONS:END -->
 
@@ -89,6 +89,13 @@ occasional soldering iron. Right now I'm building AI applications at **Reply**.
 [![LVGL](https://img.shields.io/badge/LVGL-2C3E50?style=flat-square)](https://lvgl.io)
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)](https://www.kernel.org)
 [![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](https://git-scm.com)
+
+### Contribution activity
+
+<p align="center">
+  <img alt="Contribution activity over the last 90 days"
+       src="https://github-readme-activity-graph.vercel.app/graph?username=upuddu&bg_color=00000000&color=57606A&line=57606A&point=57606A&area=true&area_color=57606A&hide_border=true&custom_title=&days=90" />
+</p>
 
 ---
 
