@@ -4,7 +4,7 @@
 
 <p align="center">
   <img alt="AI systems · numerical computing · embedded"
-       src="https://readme-typing-svg.demolab.com?font=Inter&size=18&duration=3500&pause=900&color=57606A&center=true&vCenter=true&width=520&lines=AI+systems+%C2%B7+numerical+computing+%C2%B7+embedded;Transformers+and+numerical+libraries+from+the+math+up;Firmware%2C+CLIs%2C+and+the+occasional+soldering+iron" />
+       src="https://readme-typing-svg.demolab.com?font=Inter&size=18&duration=3500&pause=900&color=57606A&center=true&vCenter=true&width=520&lines=AI+systems+%C2%B7+numerical+computing+%C2%B7+embedded" />
 </p>
 
 <p align="center">
@@ -19,7 +19,9 @@
 
 <p align="center"><i>Interning this summer — open to opportunities from Fall 2026 onward.</i></p>
 
----
+<p align="center">
+  <img alt="" width="100%" src="./assets/wave.svg" />
+</p>
 
 ### About
 
@@ -89,13 +91,6 @@ occasional soldering iron. Right now I'm building AI applications at **Reply**.
 [![LVGL](https://img.shields.io/badge/LVGL-2C3E50?style=flat-square)](https://lvgl.io)
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)](https://www.kernel.org)
 [![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](https://git-scm.com)
-
-### Contribution activity
-
-<p align="center">
-  <img alt="Contribution activity over the last 90 days"
-       src="https://github-readme-activity-graph.vercel.app/graph?username=upuddu&bg_color=00000000&color=57606A&line=57606A&point=57606A&area=true&area_color=57606A&hide_border=true&custom_title=&days=90" />
-</p>
 
 ---
 
