@@ -1,0 +1,95 @@
+#!/usr/bin/env node
+// Regenerates the "Open-source contributions" list in README.md between the
+// <!-- CONTRIBUTIONS:START --> / <!-- CONTRIBUTIONS:END --> markers.
+//
+// Lists public repositories I've had pull requests MERGED into but don't own.
+// Uses the GitHub public API. In CI the workflow's built-in GITHUB_TOKEN is
+// passed for rate limits; because that token only sees public data, private
+// repos can never appear. Runs unauthenticated locally too.
+
+import { readFileSync, writeFileSync } from 'node:fs'
+
+const USER = process.env.GH_USERNAME || 'upuddu'
+const TOKEN = process.env.GITHUB_TOKEN || ''
+const README = new URL('../README.md', import.meta.url)
+const START = '<!-- CONTRIBUTIONS:START -->'
+const END = '<!-- CONTRIBUTIONS:END -->'
+
+const headers = {
+  Accept: 'application/vnd.github+json',
+  'User-Agent': `${USER}-profile-readme`,
+  ...(TOKEN ? { Authorization: `Bearer ${TOKEN}` } : {}),
+}
+
+async function gh(path) {
+  const res = await fetch(`https://api.github.com${path}`, { headers })
+  if (!res.ok) throw new Error(`GitHub ${res.status} for ${path}`)
+  return res.json()
+}
+
+function repoFullName(repositoryUrl) {
+  const parts = repositoryUrl.split('/repos/')
+  return parts.length === 2 && parts[1] ? parts[1] : null
+}
+
+function formatStars(n) {
+  return n < 1000 ? String(n) : `${(n / 1000).toFixed(1).replace(/\.0$/, '')}k`
+}
+
+async function collect() {
+  const q = encodeURIComponent(`type:pr author:${USER} is:merged`)
+  const search = await gh(`/search/issues?q=${q}&per_page=100`)
+  const u = USER.toLowerCase()
+
+  const counts = new Map()
+  for (const item of search.items ?? []) {
+    const full = repoFullName(item.repository_url)
+    if (!full || full.split('/')[0].toLowerCase() === u) continue
+    counts.set(full, (counts.get(full) ?? 0) + 1)
+  }
+
+  const rows = []
+  for (const [full, count] of counts) {
+    let detail
+    try {
+      detail = await gh(`/repos/${full}`)
+    } catch {
+      continue // not publicly available → skip
+    }
+    if (detail.private || detail.owner.login.toLowerCase() === u) continue
+    rows.push({
+      full: detail.full_name,
+      url: detail.html_url,
+      description: detail.description || '',
+      stars: detail.stargazers_count,
+      language: detail.language,
+      count,
+      prsUrl: `${detail.html_url}/pulls?q=${encodeURIComponent(`is:pr author:${USER} is:merged`)}`,
+    })
+  }
+  return rows.sort((a, b) => b.stars - a.stars)
+}
+
+function render(rows) {
+  if (rows.length === 0) return '_Nothing to show yet._'
+  return rows
+    .map((r) => {
+      const meta = [`⭐ ${formatStars(r.stars)}`, r.language, `[${r.count} merged PR${r.count === 1 ? '' : 's'}](${r.prsUrl})`]
+        .filter(Boolean)
+        .join(' · ')
+      const desc = r.description ? ` — ${r.description}` : ''
+      return `- **[${r.full}](${r.url})**${desc}  \n  ${meta}`
+    })
+    .join('\n')
+}
+
+const rows = await collect()
+const block = `${START}\n${render(rows)}\n${END}`
+const md = readFileSync(README, 'utf8')
+
+if (!md.includes(START) || !md.includes(END)) {
+  throw new Error('CONTRIBUTIONS markers not found in README.md')
+}
+const next = md.replace(new RegExp(`${START}[\\s\\S]*?${END}`), block)
+writeFileSync(README, next)
+console.log(`Updated ${rows.length} contribution(s).`)

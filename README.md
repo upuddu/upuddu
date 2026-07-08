@@ -47,34 +47,51 @@ occasional soldering iron. Right now I'm building AI applications at **Reply**.
 - **[PioNeer](https://github.com/upuddu/PioNeer)** — handheld gaming console firmware for the RP2350; an LVGL launcher that side-loads games from an SD card.
 - **[SlitDiffraction](https://github.com/upuddu/SlitDiffraction)** — a real-time Huygens–Fresnel wave-field simulator for macOS (Objective-C++ / Cocoa).
 
+### Open-source contributions
+
+Merged pull requests into projects I don't maintain — updated automatically.
+
+<!-- CONTRIBUTIONS:START -->
+- **[goreleaser/goreleaser](https://github.com/goreleaser/goreleaser)** — Release engineering, simplified  
+  ⭐ 15.9k · Go · [1 merged PR](https://github.com/goreleaser/goreleaser/pulls?q=is%3Apr%20author%3Aupuddu%20is%3Amerged)
+- **[ClementTsang/bottom](https://github.com/ClementTsang/bottom)** — Yet another cross-platform graphical process/system monitor.  
+  ⭐ 13.7k · Rust · [1 merged PR](https://github.com/ClementTsang/bottom/pulls?q=is%3Apr%20author%3Aupuddu%20is%3Amerged)
+- **[ducaale/xh](https://github.com/ducaale/xh)** — Friendly and fast tool for sending HTTP requests  
+  ⭐ 7.9k · Rust · [1 merged PR](https://github.com/ducaale/xh/pulls?q=is%3Apr%20author%3Aupuddu%20is%3Amerged)
+- **[knadh/koanf](https://github.com/knadh/koanf)** — Simple, extremely lightweight, extensible, configuration management library for Go. Supports JSON, TOML, YAML, env, command line, file, S3 etc. Alternative to viper.  
+  ⭐ 4.1k · Go · [1 merged PR](https://github.com/knadh/koanf/pulls?q=is%3Apr%20author%3Aupuddu%20is%3Amerged)
+- **[reductstore/reductstore](https://github.com/reductstore/reductstore)** — High Performance Data Backbone for Robotics and Industrial IoT  
+  ⭐ 360 · Rust · [2 merged PRs](https://github.com/reductstore/reductstore/pulls?q=is%3Apr%20author%3Aupuddu%20is%3Amerged)
+<!-- CONTRIBUTIONS:END -->
+
 ### Toolbox
 
 **Languages**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Objective-C++](https://img.shields.io/badge/Objective--C++-438EFF?style=flat-square&logo=apple&logoColor=white)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
+[![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)](https://en.cppreference.com/w/c)
+[![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)](https://isocpp.org)
+[![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)](https://www.rust-lang.org)
+[![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)](https://go.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)](https://www.swift.org)
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)](https://openjdk.org)
+[![Objective-C++](https://img.shields.io/badge/Objective--C++-438EFF?style=flat-square&logo=apple&logoColor=white)](https://en.wikipedia.org/wiki/Objective-C)
 
 **ML &amp; data**
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org)
+[![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)](https://numpy.org)
 
 **Web, backend &amp; systems**
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![LVGL](https://img.shields.io/badge/LVGL-2C3E50?style=flat-square)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)](https://nextjs.org)
+[![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://react.dev)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org)
+[![LVGL](https://img.shields.io/badge/LVGL-2C3E50?style=flat-square)](https://lvgl.io)
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)](https://www.kernel.org)
+[![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](https://git-scm.com)
 
 ---
 
