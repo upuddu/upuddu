@@ -70,21 +70,27 @@ async function collect() {
   return rows.sort((a, b) => b.stars - a.stars)
 }
 
+function truncate(s, n) {
+  if (!s) return ''
+  return s.length > n ? `${s.slice(0, n - 1).trimEnd()}…` : s
+}
+
 function render(rows) {
   if (rows.length === 0) return '_Nothing to show yet._'
-  return rows
+  const header = '| Project | What it does | Language | Stars | Merged |\n| :-- | :-- | :-- | --: | :--: |'
+  const body = rows
     .map((r) => {
-      const meta = [`⭐ ${formatStars(r.stars)}`, r.language, `[${r.count} merged PR${r.count === 1 ? '' : 's'}](${r.prsUrl})`]
-        .filter(Boolean)
-        .join(' · ')
-      const desc = r.description ? ` — ${r.description}` : ''
-      return `- **[${r.full}](${r.url})**${desc}  \n  ${meta}`
+      const desc = truncate(r.description, 80).replace(/\|/g, '\\|') || '—'
+      const lang = r.language || '—'
+      const prs = `[${r.count} PR${r.count === 1 ? '' : 's'}](${r.prsUrl})`
+      return `| **[${r.full}](${r.url})** | ${desc} | ${lang} | ⭐ ${formatStars(r.stars)} | ${prs} |`
     })
     .join('\n')
+  return `${header}\n${body}`
 }
 
 const rows = await collect()
-const block = `${START}\n${render(rows)}\n${END}`
+const block = `${START}\n\n${render(rows)}\n\n${END}`
 const md = readFileSync(README, 'utf8')
 
 if (!md.includes(START) || !md.includes(END)) {
