@@ -59,7 +59,7 @@ occasional soldering iron. Right now I'm building AI applications at **Reply**.
 | **[ClementTsang/bottom](https://github.com/ClementTsang/bottom)** | Yet another cross-platform graphical process/system monitor. | Rust | 13.7k | [1 PR](https://github.com/ClementTsang/bottom/pulls?q=is%3Apr%20author%3Aupuddu%20is%3Amerged) |
 | **[ducaale/xh](https://github.com/ducaale/xh)** | Friendly and fast tool for sending HTTP requests | Rust | 7.9k | [1 PR](https://github.com/ducaale/xh/pulls?q=is%3Apr%20author%3Aupuddu%20is%3Amerged) |
 | **[knadh/koanf](https://github.com/knadh/koanf)** | Simple, extremely lightweight, extensible, configuration management library for… | Go | 4.1k | [1 PR](https://github.com/knadh/koanf/pulls?q=is%3Apr%20author%3Aupuddu%20is%3Amerged) |
-| **[reductstore/reductstore](https://github.com/reductstore/reductstore)** | High Performance Data Backbone for Robotics and Industrial IoT | Rust | 361 | [2 PRs](https://github.com/reductstore/reductstore/pulls?q=is%3Apr%20author%3Aupuddu%20is%3Amerged) |
+| **[reductstore/reductstore](https://github.com/reductstore/reductstore)** | High Performance Data Backbone for Robotics and Industrial IoT | Rust | 362 | [2 PRs](https://github.com/reductstore/reductstore/pulls?q=is%3Apr%20author%3Aupuddu%20is%3Amerged) |
 
 <!-- CONTRIBUTIONS:END -->
 
