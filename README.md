@@ -56,11 +56,11 @@ occasional soldering iron. Right now I'm building AI applications at **Reply**.
 | Project | What it does | Language | Stars | Merged |
 | :-- | :-- | :-- | --: | :--: |
 | **[goreleaser/goreleaser](https://github.com/goreleaser/goreleaser)** | Release engineering, simplified | Go | 15.9k | [1 PR](https://github.com/goreleaser/goreleaser/pulls?q=is%3Apr%20author%3Aupuddu%20is%3Amerged) |
-| **[ClementTsang/bottom](https://github.com/ClementTsang/bottom)** | Yet another cross-platform graphical process/system monitor. | Rust | 13.7k | [1 PR](https://github.com/ClementTsang/bottom/pulls?q=is%3Apr%20author%3Aupuddu%20is%3Amerged) |
+| **[ClementTsang/bottom](https://github.com/ClementTsang/bottom)** | Yet another cross-platform graphical process/system monitor. | Rust | 13.8k | [1 PR](https://github.com/ClementTsang/bottom/pulls?q=is%3Apr%20author%3Aupuddu%20is%3Amerged) |
 | **[ducaale/xh](https://github.com/ducaale/xh)** | Friendly and fast tool for sending HTTP requests | Rust | 7.9k | [1 PR](https://github.com/ducaale/xh/pulls?q=is%3Apr%20author%3Aupuddu%20is%3Amerged) |
 | **[go-git/go-git](https://github.com/go-git/go-git)** | A highly extensible Git implementation in pure Go. | Go | 7.6k | [1 PR](https://github.com/go-git/go-git/pulls?q=is%3Apr%20author%3Aupuddu%20is%3Amerged) |
 | **[knadh/koanf](https://github.com/knadh/koanf)** | Simple, extremely lightweight, extensible, configuration management library for… | Go | 4.1k | [1 PR](https://github.com/knadh/koanf/pulls?q=is%3Apr%20author%3Aupuddu%20is%3Amerged) |
-| **[reductstore/reductstore](https://github.com/reductstore/reductstore)** | High Performance Data Backbone for Robotics and Industrial IoT | Rust | 362 | [2 PRs](https://github.com/reductstore/reductstore/pulls?q=is%3Apr%20author%3Aupuddu%20is%3Amerged) |
+| **[reductstore/reductstore](https://github.com/reductstore/reductstore)** | High Performance Data Backbone for Robotics and Industrial IoT | Rust | 363 | [2 PRs](https://github.com/reductstore/reductstore/pulls?q=is%3Apr%20author%3Aupuddu%20is%3Amerged) |
 
 <!-- CONTRIBUTIONS:END -->
 
